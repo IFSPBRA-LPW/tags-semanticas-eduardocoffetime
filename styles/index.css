@@ -8,6 +8,8 @@
     color: #333333;
     backgound-color: #f9f8fa;
     line-height: 1.6;
+    max-height: 800px;
+    margin: auto;
   }
 .header-container{
     background-color: #0077CC;
@@ -21,15 +23,27 @@
 }
 
 .link:hover{
-    color: yellow;
+    color:yellow;
 }
 
 .link:visited{
-    color: aqua;
+    color:aqua;
 }
 nav ul{
     list-style:none;
     display: flex;
     justify-content: center;
     gap: 15px;
+}
+.subtitle{
+    margin: 20px 0px;
+}
+
+.citacoes{
+    background-color:rgb(248, 144, 8);
+    border-left: 5px solidrgb(248, 8, 188);
+    font-style: italic;
+    margin-bottom: 20px;
+    padding: 10px
+
 }
