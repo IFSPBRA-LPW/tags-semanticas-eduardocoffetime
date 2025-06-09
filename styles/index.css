@@ -1,14 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-{
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+*{
+    font-family: "Playfair Display", serif;
+    margin:0;
+    padding:0;
+    }
+  body{
+    color: #333333;
+    backgound-color: #f9f8fa;
+    line-height: 1.6;
   }
 .header-container{
     background-color: #0077CC;
     color: #FFFFFF;
     text-align: Center;
+}
+
+.link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: yellow;
+}
+
+.link:visited{
+    color: aqua;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
